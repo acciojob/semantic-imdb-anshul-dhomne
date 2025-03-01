@@ -1,2 +1,44 @@
-
-/* Your CSS Code here. */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+nav {
+    background-color: #444;
+    padding: 1rem;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+section {
+    padding: 1rem;
+    margin: 1rem 0;
+    background-color: white;
+    border-radius: 8px;
+}
+aside {
+    background-color: #e0e0e0;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
